@@ -1,0 +1,28 @@
+@media (min-width : 768px) {
+    .alert {
+      margin: "50px 0px 0px 300px";
+      left:300px;
+    }
+  
+    .only-small-screen {
+      display: none;
+    }
+    .loginpage{
+      margin-left: 300px;
+      padding: 30px;
+      margin-top: 80px;
+  
+    }
+    .page {
+      margin-left: 300px;
+      padding: 30px;
+      margin-top: 80px;
+      
+    }
+    .form-desktop{
+      width: 50%;
+    }
+    .loginbtn{
+      max-width: 150px;
+    }
+  }

@@ -1,0 +1,57 @@
+@media (max-width : 768px) {
+    .alert {
+        width: 100%;
+        left: 0px;
+    }
+    .loginform{
+        width: 100%;
+    }
+    .loginpage { 
+        width: 100%;
+        margin: auto;
+        margin-top: 90px;  
+    }
+    .loginpage h1{
+        font-size: 1.45rem;
+    }
+    .loginpage input{
+        width: 100%; 
+    }
+    .page {
+        padding: 10px;
+        margin-top: 90px;
+
+    }
+    .search{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0 15px;
+     }
+     .tablediv{
+        overflow-x: scroll;   
+     }
+     .tablesearch{ 
+        /* overflow-x: scroll;  */
+        width: 700px;
+     }
+    .bookissue{
+            flex-wrap: wrap;
+    }
+    .navbutton{
+        width: 50px;
+    }
+    .summary{
+        padding: 9px;
+    }
+    .summarycard{
+        height: 100px;
+    }
+    #wrapper{
+        width: 100vw; 
+        height: 75vh;
+    }
+   
+}

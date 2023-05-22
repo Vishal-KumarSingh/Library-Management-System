@@ -1,0 +1,56 @@
+@media (max-width : 768px) {
+    .alert {
+        width: 100%;
+        left: 0px;
+    }
+
+    .loginpage { 
+        width: 100%;
+        margin: auto;
+        margin-top: 90px;  
+    }
+    .loginpage h1{
+        font-size: 1.45rem;
+    }
+    .loginpage input{
+        width: 100%; 
+    }
+    .form-label{
+        font-size: 1.1rem;
+    }
+    .loginform{
+        width: 100%;
+    }
+     .page{
+        margin-left: 0px; 
+        padding: 0 25px;
+     }
+     .search{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0 15px;
+     }
+      
+     .tablediv{
+        overflow-x: scroll;   
+     }
+     .tablesearch{ 
+        /* overflow-x: scroll;  */
+        width: 700px;
+     }
+     .heading{
+        margin-left:35% ;
+     }
+     .tableBookHistory{
+        width: 550px;
+     }
+     .navbutton{
+        width: 50px;
+    }
+    .loginbtn{
+        width: 100%;
+    }
+}

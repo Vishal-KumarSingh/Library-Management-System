@@ -1,0 +1,133 @@
+.hover-white:hover {
+    background: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.bar-item {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.bar-block {
+    width: 100%;
+}
+
+.sidebar {
+    left: 0px;
+    top: 50px;
+    height: 100%;
+    background: #008080;
+    z-index: 3;
+    width: 300px;
+    font-weight: bold;
+    transition: width 0.1s ease-in;
+    overflow: hidden;
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.fixed-top {
+    top: 0px;
+    width: 100%;
+}
+
+.sidebar-heading {
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.alert {
+    position: fixed;
+    top: 50px; 
+    background-color:white;
+    width: 100%;
+    border-radius: 0px !important;
+    color: white;
+    padding: 8px;
+}
+
+.search {
+    width: 50%;
+    height: 40px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 11px;
+    border: 2px solid rgba(0, 128, 128, 0.782);
+    margin-left: 25%; 
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.search input{
+    width: 95%;
+    height: 100%;
+    border-style:hidden;
+    border-radius: 11px;
+    outline: none;
+}
+ 
+.page{
+    margin-top: 90px;
+    padding:0 200px;
+}
+.active {
+    background: #ff8080;
+    border-radius: 20px;
+}
+.libbtn{
+    background: teal;
+    color: white;
+    border: 0.5px solid #008080be; 
+    width: fit-content;
+    margin-top: 1rem; 
+}
+.libbtn:hover{
+    background: #005353f4 !important;
+    color: white !important;
+
+}
+
+.loginbtn{
+    background: teal; 
+    width: 100%;
+    margin-top: 1rem; 
+}
+.logoutlogo{
+    color: white; 
+}
+.logoutbtn{
+    border: none;
+    background-color: #008080;
+    width: 50px;
+}
+.loginform{
+    width: 50%; 
+}
+.form-control{
+    border:0.5px solid #00808077; 
+}
+.heading{
+    margin-left: 55%;
+}
+
+.tablediv{
+    /* width: 100%; */
+    margin-top: 25px;
+}
+/* .form-label{
+    /* font-size: 2rem;
+ } */
